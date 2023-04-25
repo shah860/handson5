@@ -1,0 +1,107 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.num{
+    padding-top: 90px;
+}
+.row1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    animation: sample1 2s infinite alternate;
+}
+@keyframes sample1{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+.row2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: grey;
+    animation: sample2 2s infinite normal;
+}
+@keyframes sample2{
+    0%{
+        transform: skew(30deg);
+    }
+    100%{
+        transform: skew(-30deg);
+    }
+}
+.row3{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    animation: sample3 2s infinite normal;
+}
+@keyframes sample3{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.row4{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black; 
+}
+.first{
+    animation: sample4 2s infinite normal;
+    background-color:cornflowerblue;
+}
+@keyframes sample4{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,0.5);
+    }
+}
+.second{
+    animation:sample5 2s infinite normal;
+    background-color: brown;
+}
+@keyframes sample5{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(0,0.5);
+    }
+}
+.third{
+    animation:sample6 2s infinite normal;
+    background-color: green;
+}
+@keyframes sample6{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+h2{
+    text-align: center;
+    color: brown;
+}

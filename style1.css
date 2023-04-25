@@ -1,0 +1,46 @@
+
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.rect{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    transition: 2s;
+}
+.rect1:hover{
+    width: 400px;
+}
+.rect2:hover{
+    width: 350px;
+    height: 400px;
+}
+.rect3:hover{
+    width: 400px;
+}
+.rect4:hover{
+    width: 350px;
+}
+.rect5:hover{
+    width: 400px;
+}
+.rect6:hover{
+    width: 400px;
+}
+.rect7:hover{
+    width: 400px;
+}
+a{
+    text-align: center;
+    color: brown;
+    margin-left: 50%;
+    font-weight: bold;
+}

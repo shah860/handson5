@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    border: 15px solid;
+    border-color: white green white orange;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+#happ{
+    background-color: orange;
+    margin-right: 10px;
+}
+#ind{
+   background-color: white;
+}
+#day{
+    background-color: green;
+    margin-left: 10px;
+}
+.sky{
+    background-image: url(sky.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.road{
+    width: 500%;
+    background-image: url(road.jpg);
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    animation: road 5s infinite linear;
+}
+@keyframes road{
+    100%{
+        transform: translateX(-2500px);
+    }
+}
+.city{
+    display: block;
+    width: 500%;
+    background-image: url(city.png);
+    height: 250px;
+    position: relative;
+    top:225px;
+    animation: city 5s infinite linear;
+}
+@keyframes city{
+    100%{
+        transform: translateX(-500px);
+    }
+}
+.car{
+    background-image: url(car.png);
+    height: 20vh;
+    width: 27vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    left: 500px;
+    bottom: 100px;
+    position: absolute;
+    z-index: 2;
+    animation: car 5s infinite linear;
+}
+@keyframes car{
+    0%{
+        transform: translateY(1px);
+    }
+    0%{
+        transform: translateY(5px);
+    }
+    0%{
+        transform: translateY(10px);
+    }
+}
+.flag{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+    z-index: 2;
+}
+.wh2{
+    position: absolute;
+    left: 525px;
+    bottom: 90px;
+    z-index: 2;
+    animation: wh2 1s infinite linear;
+    size:small;
+}
+@keyframes wh2{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wh1{
+    position: absolute;
+    left: 770px;
+    bottom: 90px;
+    z-index: 2;
+    animation: wh1 1s infinite linear;
+}
+@keyframes wh1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.sun{
+    position: relative;
+    bottom: 220px;
+    left: 1200px;
+    z-index: 2;
+    animation: sun 5s infinite linear;
+}
+@keyframes sun{
+    100%{
+        transform: translateX(-100px);
+    }
+}
+
+.flag{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 800px;
+    bottom: 160px;
+    z-index: 2;
+}
+
+
+
